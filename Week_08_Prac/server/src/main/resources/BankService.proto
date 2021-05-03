@@ -3,13 +3,13 @@ option java_multiple_files = true;
 package ds.tutorial.communication.grpc.generated;
 
 message CheckBalanceRequest {
-    string accountId = 1;
+  string accountId = 1;
 }
 
 message CheckBalanceResponse {
-    double balance = 1;
+  double balance = 1;
 }
 
 service BalanceService {
-    rpc checkBalance(CheckBalanceRequest) returns (CheckBalanceResponse);
+  rpc checkBalance(CheckBalanceRequest) returns (CheckBalanceResponse);
 }
