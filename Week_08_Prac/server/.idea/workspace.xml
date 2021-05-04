@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bfc2947-7008-4f3d-9893-fb4eeaab687f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/distributed-system-tutorials.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/main/java/ds/tutorials/communication/client/CheckBalanceServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/main/resources/BankService.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ds/tutorials/communication/server/BalanceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ds/tutorials/communication/server/BankServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/BankService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BankService.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BankService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankService.proto" afterDir="false" />
-    </list>
+    <list default="true" id="3bfc2947-7008-4f3d-9893-fb4eeaab687f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,5 +53,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
