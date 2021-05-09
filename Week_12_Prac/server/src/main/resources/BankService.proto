@@ -25,3 +25,5 @@ message SetBalanceResponse {
 service SetBalanceService {
     rpc setBalance(SetBalanceRequest) returns (SetBalanceResponse);
 }
+
+

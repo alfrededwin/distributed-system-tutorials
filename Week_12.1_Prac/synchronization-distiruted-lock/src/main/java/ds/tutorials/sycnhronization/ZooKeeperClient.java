@@ -44,4 +44,14 @@ public class ZooKeeperClient {
     public byte[] getData(String path, boolean shouldWatch) throws KeeperException, InterruptedException {
        return zooKeeper.getData(path, shouldWatch, null);
     }
+
+    // Fault Tolerance
+    public void write(String path, byte[] data) throws KeeperException, InterruptedException {
+        zooKeeper.setData(path, data, -1);
+    }
+    public void forceDelete(String path) throws KeeperException, InterruptedException {
+        ZKUtil.deleteRecursive(zooKeeper, path);
+    }
+
+
 }

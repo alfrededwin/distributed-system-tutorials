@@ -6,7 +6,6 @@ import ds.tutorial.communication.grpc.generated.CheckBalanceResponse;
 import java.util.Random;
 
 public class CheckBalanceServiceImpl extends CheckBalanceServiceGrpc.CheckBalanceServiceImplBase {
-
     private BankServer server;
 
     public CheckBalanceServiceImpl(BankServer server){
@@ -17,8 +16,7 @@ public class CheckBalanceServiceImpl extends CheckBalanceServiceGrpc.CheckBalanc
     public void checkBalance(ds.tutorial.communication.grpc.generated.CheckBalanceRequest request,
                              io.grpc.stub.StreamObserver<ds.tutorial.communication.grpc.generated.CheckBalanceResponse> responseObserver) {
 
-        String accountId = request.getAccountId();
-        System.out.println("Request received..");
+        String accountId = request.getAccountId(); System.out.println("Request received..");
         double balance = getAccountBalance(accountId);
         CheckBalanceResponse response = CheckBalanceResponse
                 .newBuilder()
@@ -30,6 +28,6 @@ public class CheckBalanceServiceImpl extends CheckBalanceServiceGrpc.CheckBalanc
     }
 
     private double getAccountBalance(String accountId) {
-        return server.getAccountBalance(accountId);
+       return server.getAccountBalance(accountId);
     }
 }
